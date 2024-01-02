@@ -1,0 +1,6 @@
+#items_container {
+  display: flex;
+  gap: 2px;
+  /* width: 500px; */
+  flex-wrap: wrap;
+}
