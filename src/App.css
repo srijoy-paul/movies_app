@@ -1,6 +1,58 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #264653;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#root {
+  width: 100%;
+}
 #items_container {
   display: flex;
-  gap: 2px;
+  gap: 13px;
   /* width: 500px; */
   flex-wrap: wrap;
+  /* position: absolute; */
+  /* border: 2px solid red; */
 }
+
+.MuiCard-root:hover {
+  /* border: 2px solid red; */
+  /* position: relative;
+  zoom: 150%; */
+}
+
+.MuiCard-root .MuiCardMedia-root {
+  /* border: 2px solid red; */
+  object-fit: fill;
+  width: 100%;
+  /* height: 100%; */
+}
+.MuiCard-root .MuiCardContent-root {
+  overflow-y: scroll;
+  height: 120px;
+}
+/* .MuiCardMedia-img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* @media (max-width: 768px) {
+  #parent-container {
+    flex-direction: column;
+  }
+} */
